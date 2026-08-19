@@ -1,5 +1,8 @@
 //Maxium consicutive ones in a array
 
+//Keep a counter and a maxi,traverse the array increase the counter and at the same time the maxiii
+//if u get 0 then counter resets to 0 but the maxi doesnt...return the maximum of maxi and counter to get the answer
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
