@@ -1,6 +1,5 @@
 /***************************************************************************
-Maximum Subarray-return the maxium sum a sub array can give you
-
+Maximum Subarray-return the maxium sub array with the maxium sum in array
 We use Kandanes Algo-
 In a for loop you keep adding elements to the sum
 -if sum gets less than 0 you dont add that element
