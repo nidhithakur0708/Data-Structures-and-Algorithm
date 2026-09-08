@@ -1,11 +1,12 @@
 /***************************************************************************
 Maximum Subarray-return the maxium sum a sub array can give you
 
-We use Moories Algo-
+We use Kadanes Algo-
 In a for loop you keep adding elements to the sum
 -if sum gets less than 0 you dont add that element
 -if the sum still remains positive u add that to the sum
 *******************************************************************************/
+
 
 #include <bits/stdc++.h>
 using namespace std;
