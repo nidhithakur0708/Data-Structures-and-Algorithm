@@ -1,3 +1,16 @@
+/*
+1.Binary Iterative
+
+->low=0 high=n-1 mid=low+high/2 
+->If target>mid then low=mid+1 and high is there only
+->If mid>target then high=mid-1 and low is there only
+
+->The loop breaks when low<high they cross
+
+2.Binary Recursive
+->Same Approach but in Recursive functions
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
