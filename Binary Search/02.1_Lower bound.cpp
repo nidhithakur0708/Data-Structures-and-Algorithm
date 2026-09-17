@@ -12,7 +12,7 @@ you go to the left,ans=mid and high=mid-1
 ->else if arr[mid]<x you find in you right side and low=mid+mid-1
 ->and wahaa bhi you dont get then return ans=n which had you last index
 
-->Just ask bada hai bada hai and go on ....hehehehehe
+->Just ask bada or equal hai and go on ....hehehehehe
 *******************************************************************************/
 
 #include <bits/stdc++.h>
