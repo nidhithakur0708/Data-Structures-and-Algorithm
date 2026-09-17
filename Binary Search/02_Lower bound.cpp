@@ -7,7 +7,7 @@ Lower Bound is the smallest index where arr[i]>=x
 How do you find lb?
 ->You apply binary Search
 ->low=0,high=n-1,mid=low+high/02 and answer=n(because that is the ans if the x is greater than array only)
-->Then if arr[mid]>x,it is a possible lower bound but you need to find smallest
+->Then if arr[mid]>=x,it is a possible lower bound but you need to find smallest
 you go to the left,ans=mid and high=mid-1
 ->else if arr[mid]<x you find in you right side and low=mid+mid-1
 ->and wahaa bhi you dont get then return ans=n which had you last index
